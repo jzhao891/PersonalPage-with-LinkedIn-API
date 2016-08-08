@@ -1,0 +1,338 @@
+body
+{
+	background-image:url(../image/BACKGROUND_1.jpg);
+	background-size:cover;
+	background-position:center;
+	background-color:white;
+}
+
+/*nav*/
+ul
+{
+	list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li
+{
+	float:left;
+}
+
+li a
+{
+	display:block;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:15px;
+	padding-left:15px;
+	height:15px;
+	text-decoration:none;
+	font-family: 'Patua One';
+	font-size: 17px;
+	font-weight:bold;
+	color: black;
+	text-align: center;
+
+}
+
+li a:hover:not(.active)
+{
+    background-color: #FF8C00;
+    color: white;
+    height:15px;
+    -moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	text-decoration: none;
+	text-align: center;
+}
+.li-Sign
+{
+	background-color:gray;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	opacity:0.8;
+}
+.nav-menu
+{
+	margin:0;
+	height:50px;
+	width:100%;
+
+}
+/*nav*/
+.center
+{
+	text-align:center;
+	width:100%;
+}
+.right
+{
+	text-align:right;
+	width:100%;
+}
+.left
+{
+	text-align:left;
+	width:100%;
+}
+
+/*Input*/
+.c-text
+{
+	height:40px;
+	font-size:20px;
+	text-align:center;
+}
+.c-submit
+{
+	height:45px;
+	width:120px;
+	border：none;
+	font-size:20px;
+	font-weight:bold;
+	border:none;
+	padding:6px 10px;
+	text-decoration: none;
+	background-color: #FF8C00;
+	color:white;
+}
+.c-submit:hover
+{
+	background-color: black;
+	opacity:0.6;
+
+}
+/*Input*/
+
+/*div*/
+
+/*div*/
+/*table*/
+table
+{
+	width:100%;
+	height:100%;
+}
+.td-1
+{
+	width:10%;
+	height:100%;
+}
+.td-2
+{
+	width:20%;
+	height:100%;
+}
+.td-3
+{
+	width:30%;
+	height:100%;
+}
+.td-4
+{
+	width:40%;
+	height:100%;
+}
+.td-5
+{
+	width:50%;
+	height:100%;
+}
+.td-6
+{
+	width:60%;
+	height:100%;
+}
+.td-7
+{
+	width:70%;
+	height:100%;
+}
+.td-8
+{
+	width:80%;
+	height:100%;
+}
+.td-9
+{
+	width:90%;
+	height:100%;
+}
+/*table*/
+
+/*form*/
+#Login
+{
+	position: absolute;
+	top: 0px;
+	width: 300px;
+	height:400px;
+	padding: 18px 4% 60px 4%;
+	margin: 100px 0 0px 0px;
+	background: rgb(247, 247, 247);
+	opacity:0.9;
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+#Signup
+{
+	position: absolute;
+	top: 0px;
+	display:none;
+	/*visibility:hidden;*/
+	width: 300px;
+	height:400px;
+	padding: 18px 5% 60px 5%;
+	margin: 150px 0 0px 80px;s
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+#email
+{
+	width:100%;
+	height: 30px;
+}
+#password
+{
+	width:100%;
+	height: 30px;
+}
+/*form*/
+/*in form, other css*/
+/*p.botton*/
+.login_button
+{
+	text-align: right;
+	margin: 5px 0;
+}
+.login_button input
+{
+	text-align: center;
+	width: 30%;
+	cursor: pointer;
+	background: rgb(61, 157, 179);
+	padding: 8px 5px;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	color: #fff;
+	font-size: 24px;
+	border: 1px solid rgb(28, 108, 122);
+	margin-bottom: 10px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	   -moz-box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	        box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+.signin_button
+{
+	text-align: right;
+	margin: 5px 0;
+}
+.signin_button input
+{
+	text-align: center;
+	width: 30%;
+	cursor: pointer;
+	background: rgb(61, 157, 179);
+	padding: 8px 5px;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	color: #fff;
+	font-size: 24px;
+	border: 1px solid rgb(28, 108, 122);
+	margin-bottom: 10px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	   -moz-box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	        box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+/*bottom*/
+/*label*/
+.keeplogin label
+{
+	display: inline-block;
+	font-size: 12px;
+	font-style: italic;
+}
+label
+{
+	font-size:17px;
+	font-family:'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+}
+/*label*/
+/*p.link*/
+.change_link
+{
+	text-align:right;
+}
+.change_link a
+{
+	display: inline-block;
+	font-weight: bold;
+	background: rgb(247, 248, 241);
+	padding: 2px 6px;
+	color: rgb(29, 162, 193);
+	margin-left: 10px;
+	text-decoration: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid rgb(203, 213, 214);
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s  linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s  linear;
+	transition: all 0.4s  linear;
+}
+p.change_link a:hover
+{
+	color: rgb(57, 191, 215);
+	background: rgb(247, 247, 247);
+	border: 1px solid rgb(74, 179, 198);
+}
+p.change_link a:active
+{
+	position: relative;
+	top: 1px;
+}
+
+/*p.link*/
